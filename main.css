@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    width: 80%;
+    border: 2px solid none;
+    height: 850px;
+    margin: auto;
+    transform: rotateX(40deg);
+    display: flex;
+    box-shadow: 0px 0px 8px 2px #444444;
+}
+
+.black-container {
+    background-color: #fff;
+    border: 2px solid #fff;
+    width: 500px;
+    height: 850px;
+}
+
+.yellow-container {
+    background-color: #ffff00;
+    border: 2px solid #ffff00;
+    width: 900px;
+    height: 850px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 0;
+}
+
+.boxes {
+    position: absolute;
+    top: 8%;
+    left: 4%;
+}
+
+.box1 {
+    border: 2px solid none;
+    background-color: rgb(17, 23, 41);
+    width: 300px;
+    height: 700px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 15px 3px coral;
+    padding: 20px 40px;
+}
+
+.first-box {
+    border: 2px solid none;
+    background-color: rgb(17, 23, 41);
+    width: 305px;
+    height: 700px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 15px 3px coral;
+    padding: 60px 40px;
+}
+
+.first-box .circle {
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.first-box h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 80px;
+    line-height: 1.5em;
+}
+
+.first-box .login-btn {
+    width: 200px;
+    height: 60px;
+    border: 2px solid coral;
+    background-color: coral;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+.first-box .login-btn:hover {
+    color: coral;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.first-box p {
+    color: white;
+    margin-top: 45px;
+}
+
+.first-box a {
+    color: coral;
+    text-decoration: underline;
+    float: right;
+}
+
+.first-box a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.box1 h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-left: 10px;
+    line-height: 1.5em;
+}
+
+.box1 .f {
+    margin-top: 50px;
+}
+
+.box1 form .d {
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid coral;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+form .d {
+    background-image: url('/img/user_male3-256.png');
+    background-repeat: no-repeat;
+}
+
+.box1 .login-btn {
+    width: 200px;
+    height: 50px;
+    border: 2px solid coral;
+    background-color: coral;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+.box1 p {
+    color: #fff;
+    margin-top: 45px;
+}
+
+.box1 a {
+    color: coral;
+    float: right;
+    text-decoration: underline;
+}
+
+.box1 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.box1 .login-btn:hover {
+    color: coral;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.box1 form .e {
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid coral;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.box1 form input {
+    margin-top: 20px;
+}
